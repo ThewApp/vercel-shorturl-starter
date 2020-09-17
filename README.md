@@ -4,7 +4,7 @@ Template for [vercel-shorturl](https://github.com/ThewApp/vercel-shorturl) that 
 
 ## Demo
 
-[Demo](vercel-shorturl-starter.vercel.app) is deployed with the example [redirects.yml](assets/redirects.example.yml).
+[Demo](https://vercel-shorturl-starter.vercel.app) is deployed with the example [redirects.yml](assets/redirects.example.yml).
 
 ## Usage
 
