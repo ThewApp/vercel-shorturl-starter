@@ -2,6 +2,10 @@
 
 Template for [vercel-shorturl](https://github.com/ThewApp/vercel-shorturl) that automatically deploys using GitHub Actions.
 
+## Demo
+
+[Demo](vercel-shorturl-starter.vercel.app) is deployed with the example [redirects.yml](assets/redirects.example.yml).
+
 ## Usage
 
 1. [Create a new repository from this template](https://github.com/ThewApp/vercel-shorturl-starter/generate)
