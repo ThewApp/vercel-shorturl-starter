@@ -1,0 +1,24 @@
+name: Deploy
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 5 */5 * *"
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - run: npm init -y
+      - run: npm install @thewapp/vercel-shorturl
+      - run: npx vercel-shorturl build
+      - run: |
+          mkdir .vercel
+          echo $VERCEL_PROJECT > .vercel/project.json
+          npx vercel --prod --token $VERCEL_TOKEN
+        env:
+          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+          VERCEL_PROJECT: ${{ secrets.VERCEL_PROJECT }}
