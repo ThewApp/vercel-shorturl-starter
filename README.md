@@ -16,6 +16,6 @@ Template for [vercel-shorturl](https://github.com/ThewApp/vercel-shorturl) that 
 
 Then GitHub Actions will deploy to Vercel every time you make a change and every 5 days to prevent `VERCEL_TOKEN` expiration
 
-## Custom page
+## Features
 
-You can override home page and 404 page by placing `index.html` and `404.html` in project root.
+For more features please visits [vercel-shorturl](https://github.com/ThewApp/vercel-shorturl#features).
