@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "@thewapp/vercel-shorturl": "latest"
+  },
+  "scripts": {
+    "start": "vercel-shorturl init",
+    "build": "vercel-shorturl build",
+    "vercel-build": "vercel-shorturl build"
+  }
+}
